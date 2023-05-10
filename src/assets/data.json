@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "name": "Book",
+      "price": 19.99,
+      "url": "https://assets.entrepreneur.com/content/3x2/2000/20190311153646-GettyImages-932272022.jpeg?crop=16:9",
+      "description": "You can read it!",
+      "availableAmount": 29
+    },
+    {
+      "id": 2,
+      "name": "Headphones",
+      "price": 399.59,
+      "url": "https://longgem.vn/wp-content/uploads/2021/12/headphone-g606-longgem-1.jpg",
+      "description": "You can listen to music in better quality",
+      "availableAmount": 9
+    },
+    {
+      "id": 3,
+      "name": "Backpack",
+      "price": 99.99,
+      "url": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/abe3a78ccfe34bacb6d0ad5600ee3f3a_9366/Adicolor_Backpack_Black_H35596_01_standard.jpg",
+      "description": "Bring everything you want",
+      "availableAmount": 32
+    },
+    {
+      "id": 4,
+      "name": "Glasses",
+      "price": 159.99,
+      "url": "https://cf.shopee.ph/file/eeca6ea06d3d47b0e612391cf6e48409",
+      "description": "Protect your eyes",
+      "availableAmount": 45
+    },
+    {
+      "id": 5,
+      "name": "Cup",
+      "price": 7.99,
+      "url": "https://i.insider.com/63359a8c25c9a90018a60b55?width=1136&format=jpeg",
+      "description": "Let's have a good cup of coffee",
+      "availableAmount": 33
+    },
+    {
+      "id": 6,
+      "name": "Shirt",
+      "price": 31.99,
+      "url": "https://www.seasonbazaar.com/wp-content/uploads/2019/08/2019-brand-casual-plaid-luxury-plus-size-long-sleeve-slim-fit-men-shirt-spring-social-dress-3.jpg",
+      "description": "Very trendy shirts",
+      "availableAmount": 25
+    }
+  ]
