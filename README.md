@@ -1,6 +1,6 @@
-# MyStore
+#### My Store Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
+This project was initially generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.2.
 
 ## Installing dependencies ##
 
@@ -8,25 +8,45 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 npm install
 ```
 
-## Development server
+#### Summary
+> In this project, I will use Angular to create a simple single-page e-commerce application called MyStore.
+> The application will include a variety of Angular components that communicate with one another, such as a product list component that displays a list of items for which a user can shop.
+> The mock data is generated from the provided static json file, and the items are then rendered into the page.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+#### App components
++ Product list `product-list`: list of all product items on homepage
++ Product item `product-item`: single component that makes up product list
++ Product detail `product-detail`: detail of product when users navigate to single product with specific id
++ add-to-cart `add-to-cart`: add product to cart
++ Nav bar `nav-bar`: navigation bar that stays on top of every route
++ Cart `cart`: checkout form with form validation and cart list
++ Confirmation `confirmation`: confirmation page after successful checkout
 
-## Code scaffolding
+#### App specifics
+##### Model:
++ Product
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+##### Service:
++ Product
++ Cart
 
-## Build
+##### Routing:
++ `/products`: product homepage 
++ `products/:id`: product item detail page 
++ `/cart`: cart checkout page 
++ `/confirmation`: confirmation page
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+#### Run the project
+
+Run `ng serve` OR `npm start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+#### Build the project
+
+Run `ng build` OR `npm run build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
 ### Prettier ###
 
@@ -39,7 +59,3 @@ npm run prettier
 ```
 npm run lint
 ```
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
